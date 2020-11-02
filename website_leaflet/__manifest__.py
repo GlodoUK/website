@@ -7,9 +7,7 @@
     "version": "13.0.1.0.0",
     "depends": ["website"],
     "external_dependencies": {"python": []},
-    "data": [
-        "templates/assets.xml",
-    ],
+    "data": ["templates/assets.xml"],
     "demo": [],
     "installable": True,
     "application": False,

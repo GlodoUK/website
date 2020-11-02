@@ -1,19 +1,14 @@
 {
     "name": "website_robots",
-    "summary": "Module summary",
-    "version": "12.0.1.0.0",
+    "summary": "Modify robots.txt for website.",
+    "version": "13.0.1.0.0",
     "category": "Uncategorized",
     "website": "https://www.glodo.uk/",
-    "author": "GlodoUK",
+    "author": "Glodo",
     "application": True,
-    "depends": [
-        "website",
-    ],
-    "data": [
-        "views/robots.xml",
-    ],
-    "demo": [
-    ],
-    "qweb": [
-    ]
+    "depends": ["website"],
+    "data": ["views/robots.xml"],
+    "demo": [],
+    "qweb": [],
+    "license": "AGPL-3",
 }

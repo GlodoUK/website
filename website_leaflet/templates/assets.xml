@@ -5,7 +5,7 @@
                 rel="stylesheet"
                 type="text/css"
                 href="/website_leaflet/static/lib/leaflet/leaflet.css"
-                />
+            />
             <link
                 rel="stylesheet"
                 type="text/scss"

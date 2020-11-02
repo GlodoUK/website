@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <odoo>
   <data>
     <template id="robots" inherit_id="website.robots" name="Modified robots.txt">
@@ -6,7 +6,7 @@
         <t t-name="website.robots">
           <t t-translation="off">
 User-agent: *
-Sitemap: <t t-esc="url_root"/>sitemap.xml
+Sitemap: <t t-esc="url_root" />sitemap.xml
 Crawl-delay: 10
 Disallow: /web
 Disallow: /website/info
