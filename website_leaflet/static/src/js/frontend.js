@@ -44,7 +44,7 @@ odoo.define("website.leaflet", function(require) {
 
             var self = this;
 
-            $(mapContainer).resize(function() {
+            $(window).resize(function() {
                 // On resize we need to tell leaflet that the size has changed,
                 // so that panTo, flyTo, etc. all work correctly.
 
@@ -56,6 +56,8 @@ odoo.define("website.leaflet", function(require) {
                     self.leafletMap.invalidateSize();
                 }, 500);
             });
+
+            this.leafletInitDone = true;
 
             this._addMarker();
         },
